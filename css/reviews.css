@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{ 
+    background-color: #ffffff;
+}
+
+.heading{
+    margin: 10px 10px 10px 10px;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111111;
+}
+
+
+.paragraph{
+    margin: 10px 10px 10px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111111;
+
+}
+.image{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 380px;
+
+
+
+}
+
+.image img{
+    height: 235px;
+    width: 235px;
+    border-radius: 50%;
+    display: block;
+    
+    border: 5px solid #111;
+    
+}
+
+.name{
+    margin: 10px 10px 10px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111111;
+
+}
+
+.quote{
+    margin: 10px 70px 10px 70px;
+    font-size: 23px;
+    text-decoration: none;
+    /* letter-spacing: 1.5px; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #111111;
+
+}
+
+
+/* Responsive */
+
+
+@media screen and (max-width: 600px) {
+    .slideshow-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .image{
+    margin: auto;
+  }
+  .quote h5{
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+  }
+  .fa-quote-left, .fa-quote-right {display: none;}
+  .name{ font-size: 14px;}
+  .heading{font-size: 20px;}
+}
